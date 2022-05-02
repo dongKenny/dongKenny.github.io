@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Portfolio</title>
+        <title>Japanese Dialects</title>
         <link rel="icon" type="image/x-icon" href="https://scholars.cs.usfca.edu/images/favicon.png" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
@@ -25,13 +25,15 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#reflections">Reflections</a></li>
-                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li> -->
-                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li> -->
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#hyojungo">Standard Japanese</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#regions">Regions</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#hakata">Hakata</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#osaka">Osaka</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#hiroshima">Hiroshima</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#kyoto">Kyoto</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#nagoya">Nagoya</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#hokkaido">Hokkaido</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#colloquialisms">Colloquialisms</a></li>
                 </ul>
             </div>
         </nav>
@@ -41,176 +43,235 @@
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
                     <h1 class="mb-0">
-                        Kenny
-                        <span class="text-primary">Dong</span>
+                        Japanese
+                        <span class="text-primary">Dialects</span>
                     </h1>
-                    <div class="subheading mb-5">
-                        San Francisco, CA 94117 · (503) 756-7652 ·
-                        <a href="mailto:kdong4@usfac.edu">kdong4@usfca.edu</a>
-                    </div>
-                    <p class="lead mb-5">I am an undergraduate student at the University of San Francisco enrolled in its 4+1 graduate program. Experienced in using Python to solve machine learning problems and scrape large amounts of data from the web.</p>
-                    <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/dongkenny/"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="https://github.com/dongKenny/"><i class="fab fa-github"></i></a>
-                    </div>
+                    <p class="lead mb-5">This is a project which aims to showcase the differences between "Standard Japanese" (標準語 - <i>hyōjungo</i>)</p>
                 </div>
             </section>
             <hr class="m-0" />
-            <!--Projects-->
-            <section class="resume-section" id="projects">
+            <!-- Hyōjungo -->
+            <section class="resume-section" id="hyojungo">
                 <div class="resume-section-content">
-                        <h2 class="mb-5">Projects</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Primate Vocalization Classification</h3>
-                            <div class="subheading mb-3">MAGICS Lab</div>
-                            <p>As part of the Interspeech 2021 Computational Paralinguistics Challenge (ComParE), I classified five groups of primate vocalizations by extracting their features from wav files, augmenting the data, and implementing scikit and TensorFlow models.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">February 2021</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Search Engine</h3>
-                            <div class="subheading mb-3">CS 272: Software Development</div>
-                            <p>Wrote a multithreaded web crawler which uses a work queue to build an inverted index from a seed URL. The user can interact with the search engine using a web interface based on Jetty and the Bulma CSS framework. Additional features include reverse sorting, exact and partial search for queries, receiving word counts, and the "I'm Feeling Lucky" button.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Spring 2021</span></div>
-                    </div>
+                    <h2 class="mb-5">Hyōjungo</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0"><a href="https://github.com/dongKenny/deploying_software_final" target="_blank">Continuous Deployment Pipeline</a></h3>
-                            <div class="subheading mb-3">CS 496/686: Deploying Working Software</div>
-                            <p>Wrote pytest unit tests and Gherkin senario outlines for DND API features. Pushing to the repository triggers GitHub Actions to run the unit tests, push the image to Amazon ECR, deploy a new version to a dev environment in ECS, run the functional tests, and deploy to production in ECS. </p>
+                            <p>The "textbook" Japanese which became standardized after the Meiji Restoration.</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Spring 2021</span></div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-2">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0"><a href="https://github.com/dongKenny/artveeScraper" target="_blank">Artvee Web Scraper</a></h3>
-                            <div class="subheading mb-3">Supermedium</div>
-                            <p>Used BeautifulSoup4 to scrape metadata, download high-resolution artworks from Artvee, and upload them to an Amazon S3 bucket to minimize local download space used.</p>
+                            
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Sept 2020</span></div>
                     </div>
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Education-->
-            <section class="resume-section" id="education">
+            <!--Regions-->
+            <section class="resume-section" id="regions">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Education</h2>
+                    <h2 class="mb-5">Regions</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-2">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Hokkaidō</h3>
+                            <ul>
+                                <li>Dialects Here</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-2">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Tōhoku</h3>
+                            <ul>
+                                <li>Dialects Here</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-2">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Kantō</h3>
+                            <ul>
+                                <li>Dialects Here</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-2">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Chūbu</h3>
+                            <ul>
+                                <li>Dialects Here</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-2">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Kansai</h3>
+                            <ul>
+                                <li>Dialects Here</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-2">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Chūgoku</h3>
+                            <ul>
+                                <li>Dialects Here</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-2">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Kantō</h3>
+                            <ul>
+                                <li>Dialects Here</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-2">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Shikoku</h3>
+                            <ul>
+                                <li>Dialects Here</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-2">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Kyūshū</h3>
+                            <ul>
+                                <li>Dialects Here</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-2">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Okinawa</h3>
+                            <ul>
+                                <li>Dialects Here</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Hakata -->
+            <section class="resume-section" id="hakata">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Hakata</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">University of San Francisco</h3>
-                            <div class="subheading mb-3">Master of Science</div>
-                            <div>Computer Science</div>
-                            <p>GPA: 4.0</p>
+
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2023 - May 2024</span></div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-2">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">University of San Francisco</h3>
-                            <div class="subheading mb-3">Bachelor of Science, Bachelor of Arts</div>
-                            <div>Computer Science, Japanese Studies</div>
-                            <p>GPA: 4.0</p>
+
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2019 - May 2023</span></div>
                     </div>
-                    <!--TODO add coursework here-->
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Skills-->
-            <section class="resume-section" id="skills">
+            <!-- Osaka -->
+            <section class="resume-section" id="osaka">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                    </ul>
+                    <h2 class="mb-5">Osaka</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-2">
+                        <div class="flex-grow-1">
+                            
+                        </div>
+                    </div>
                 </div>
             </section>
             <hr class="m-0" />
-             <!--Reflections-->
-            <section class="resume-section" id="reflections">
+            <!-- Hiroshima -->
+            <section class="resume-section" id="hiroshima">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Reflections</h2>
-                    <a href="https://docs.google.com/document/d/1UAP1Mw2J1Kzo6t-lV7mQuH6evAuVJbd6s2q_OK7L0Vk/edit?usp=sharing" target="_blank">Reflection #1</a><br/>
-                    <a href="https://docs.google.com/document/d/1gOlzRL-5DfODHewvwZQkfaCimGV19od2pF5RQEj6htY/edit?usp=sharing" target="_blank">Reflection #2</a><br/>
-                    <a href="https://docs.google.com/document/d/1SJKAh8H2OK5wIGdY3b3A2JL_39Nzd6wjTkwrAkKA3Wc/edit?usp=sharing" target="_blank">Community Engagement - CS Night</a><br/>
-                    <a href="https://docs.google.com/document/d/1wuxcKGWL2YBtbkt7D9-dTN55wCLT3wRlyMIPe0Iqepo/edit?usp=sharing" target="_blank">Community Engagement - Technical</a><br/>
-                    <a href="https://docs.google.com/document/d/1V2iUslhl74LWvYV-M3bb4mvoM7olL2ZLDPrCU1iT1dc/edit?usp=sharing" target="_blank">Community Engagement - CS Department</a><br/>
-                    <a href="https://docs.google.com/document/d/18gs3aZQ4A9mb32uO4bmVdiaSdTixzkey24TbDyaNCSQ/edit?usp=sharing" target="_blank">Community Engagement - University</a><br/>
-                    <a href="https://docs.google.com/document/d/13ibRCEJy_poLMQ0gM_HL6qulZAiSej8tM343BBCm3UM/edit?usp=sharing" target="_blank">Final Mentor Reflection</a>
-                    <h2 class="mb-5">Assignments</h2>
-                    <a href="https://docs.google.com/document/d/1bMIg2sKgUSDTfFeEmrVPjnHZc0K58tSCJjx3UwQFC20/edit?usp=sharing" target="_blank">Assignment #2</a><br/> 
-                    <a href="https://docs.google.com/document/d/16tArvKYVfgM0QR0tC2_neoxJA0DplCfWK8lXFk5VLas/edit?usp=sharing" target="_blank">Assignment #3</a><br/>
-                    <a href="https://docs.google.com/document/d/19bDI2wj5bKNs6__sAJ1Xj0QL8DXwBiuzO1z1ZopdT4g/edit?usp=sharing" target="_blank">Assignment #4</a><br/>
-                    <a href="https://docs.google.com/document/d/1luMF-Ms5SVrvp2Uc-qUodZp4tanOKNdNWu7wgzqITdM/edit?usp=sharing" target="_blank">Assignment #5</a><br/>
-                    <a href="https://docs.google.com/presentation/d/1ZeUvOMkV_PGfkNPP-YZS2gKuvwUiinywmfNy9rLipZ0/edit?usp=sharing" target="_blank">Python Practices Presentation</a><br/> 
-                    <a href="https://docs.google.com/document/d/1J_CKRli-RilHri4eF2SkWZhfDe-Bn5YgL_eJ3bHnBvI/edit?usp=sharing" target="_blank">Assignment #7</a><br/>
-                </div>
-            </section>
-            <!--
-            Interests
-            <section class="resume-section" id="interests">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+                    <h2 class="mb-5">Hiroshima</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-2">
+                        <div class="flex-grow-1">
+                            
+                        </div>
+                    </div>
                 </div>
             </section>
             <hr class="m-0" />
-            Awards
-            <section class="resume-section" id="awards">
+            <!-- Kyoto -->
+            <section class="resume-section" id="kyoto">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Awards & Certifications</h2>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Google Analytics Certified Developer
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Mobile Web Specialist - Google Certification
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            2
-                            <sup>nd</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - James Buchanan High School - Hackathon 2006
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            3
-                            <sup>rd</sup>
-                            Place - James Buchanan High School - Hackathon 2005
-                        </li>
-                    </ul>
+                    <h2 class="mb-5">Kyoto</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-2">
+                        <div class="flex-grow-1">
+                            
+                        </div>
+                    </div>
                 </div>
             </section>
-            -->
+            <hr class="m-0" />
+            <!-- Nagoya -->
+            <section class="resume-section" id="nagoya">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Nagoya</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-2">
+                        <div class="flex-grow-1">
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Hokkaido -->
+            <section class="resume-section" id="hokkaido">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Hokkaido</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-2">
+                        <div class="flex-grow-1">
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Colloquialisms -->
+            <section class="resume-section" id="colloquialisms">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Colloquialisms</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-2">
+                        <div class="flex-grow-1">
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
