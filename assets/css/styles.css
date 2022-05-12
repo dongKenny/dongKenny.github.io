@@ -589,12 +589,14 @@ progress {
   margin-bottom: 0;
 }
 
-.blockquote-footer {
-  margin-top: -1rem;
+.blockquote-footer{
+  display: block;
+  margin-top: 1rem;
   margin-bottom: 1rem;
-  font-size: 0.875em;
-  color: #6c757d;
+  font-size: 80%;
+  color: #6c757d
 }
+
 .blockquote-footer::before {
   content: "— ";
 }
