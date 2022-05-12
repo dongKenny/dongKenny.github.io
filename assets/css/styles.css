@@ -582,9 +582,25 @@ progress {
 }
 
 .blockquote {
+  position: relative;
   margin-bottom: 1rem;
   font-size: 1.25rem;
+  background: #f9f9f9;
+  border-left: 6px solid #ccc;
+  padding: 1.2em 30px 1.2em 75px;
 }
+
+blockquote:before {
+  position: absolute;
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  vertical-align: -0.4em;
+  left: .25em;
+  top: .5em;
+}
+
 .blockquote > :last-child {
   margin-bottom: 0;
 }
