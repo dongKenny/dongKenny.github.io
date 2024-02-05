@@ -1,0 +1,36 @@
+.about-page {
+    .text-zone {
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40%;
+        vertical-align: middle;
+        display: table-cell;
+    }
+
+    h1 {
+        font-size: 53px;
+        font-family: 'Coolvetica';
+        color: #f0e8b9;
+        font-weight: 400;
+        margin-top: 0;
+        position: relative;
+        margin-bottom: 40px;
+        left: 10px;
+    }
+
+    
+    p {
+        color: #fff;
+        font-size: 20px;
+        line-height: 53px;
+        margin: 0;
+        font-family: 'Helvetica Neue';
+        font-weight: 400;
+
+        .titles {
+            color: #f0e8b9;
+        }
+    }
+}
