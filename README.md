@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+The design is heavily based off of [https://github.com/bobangajicsm/react-portfolio-website](https://github.com/bobangajicsm/react-portfolio-website)
+
 ## Available Scripts
 
 In the project directory, you can run:
